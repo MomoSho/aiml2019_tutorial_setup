@@ -34,8 +34,8 @@
     ```
     bash download_data.sh
     ```
-    This will take some time. The end result is a new folder name 'data' appearing.  
-    There should be 4 subfolders, pretrained_model, testing, validation, and training.
+    This will take some time. The end result is a new folder named 'data' appearing.  
+    Within it, there should be 4 subfolders, pretrained_model, testing, validation, and training.
 
 * 4:00 - 7:00p Dataiku for Solving Prediction Problems
   + Location: Rawl Engineering Practice Facility, Room 200
