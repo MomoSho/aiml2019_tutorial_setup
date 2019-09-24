@@ -2,10 +2,11 @@
 
 [See the offical site for the program and general information](http://www.ou.edu/coe/ai-ml)
 
-[Access the tutorial server here](ai-ml.cs.ou.edu)
+[First, access the tutorial server here](ai-ml.cs.ou.edu)  
+Make up a username, and log in with the passcode: aiml2019
 
 
-# [AI/ML Symposium Tutorials]( )
+# [AI/ML Symposium Tutorials](https://github.com/MomoSho/aiml2019_tutorial_setup/blob/master/OPEN_ME.md)
 * 9:00 - 10:00a Introduction to Python for Data Analysis
   + Location: Oklahoma Memorial Union Ballroom
   + Instructors: 
