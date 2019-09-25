@@ -3,17 +3,25 @@
 # Tutorial by Ryan Lagerquist.
 # https://github.com/thunderhoser/aiml_symposium/tree/master/aiml_symposium
 
+# To execute this script, write the following command: 
+#    bash download_data.sh
+
 # Input data directory
 to_dir="data"
+out_dir="output"
 
 # Create necessary directories
 if [ ! -d ${to_dir} ]; then 
     echo "There is no ${to_dir} directory. Creating ${to_dir} directory ..." 
     #mkdir -p ${to_dir} 
-    mkdir -p data/training
-    mkdir data/validation
-    mkdir data/testing
-    mkdir data/pretrained_model
+    mkdir -p ${to_dir}/training
+    mkdir ${to_dir}/validation
+    mkdir ${to_dir}/testing
+    mkdir ${to_dir}/pretrained_model
+fi
+
+if [ ! -d ${out_dir} ]; then
+    mkdir -p ${out_dir}
 fi
 
 
@@ -44,7 +52,7 @@ fname="data/pretrained_model/${mdl_filename}"
 echo "Downloading ${fname}"
 curl -c ./cookie -s -L "https://drive.google.com/uc?export=download&id=${fid}" > /dev/null
 curl -Lb ./cookie "https://drive.google.com/uc?export=download&confirm=`awk '/download/ {print $NF}' ./cookie`&id=${fid}" -o ${fname}
-ls -la data
+ls -la ${out_dir}
 
 
 # Download and untar data sets
