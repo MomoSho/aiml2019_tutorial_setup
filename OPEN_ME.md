@@ -33,7 +33,7 @@ Make up a username, and log in with the passcode: aiml2019
   
   + Download the data by opening the terminal in jupyter and running the following command:
     ```
-    bash download_data.sh
+    bash tutorials_setup/download_data.sh
     ```
     This will take some time. The end result is a new folder named 'data' appearing.  
     Within it, there should be 4 subfolders, pretrained_model, testing, validation, and training.
