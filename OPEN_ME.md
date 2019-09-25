@@ -15,6 +15,7 @@ Make up a username, and log in with the passcode: aiml2019
   + Get the [code here](http://bit.ly/aimlpython)
   + [Git Repo](https://github.com/sudhigopal/AI-ML-Symposium.git)
   
+  
 * 10:00a - 12:00p Introduction to Scikit-Learn and Pandas
   + Location: Oklahoma Memorial Union Ballroom
   + Instructors: 
@@ -22,6 +23,7 @@ Make up a username, and log in with the passcode: aiml2019
       - Monique Shotande
   + Get the [code here](http://35.202.19.212/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FMomoSho%2Faiml_tutorials_sklearn&urlpath=lab%2Ftree%2Faiml_tutorials_sklearn%2F)
   + [Git Repo](https://github.com/MomoSho/aiml_tutorials_sklearn)
+  
   
 * 12:30 - 3:30p Deep Learning and Convolutional Neural Networks
   + Location:
@@ -36,7 +38,16 @@ Make up a username, and log in with the passcode: aiml2019
     bash tutorials_setup/download_data.sh
     ```
     This will take some time. The end result is a new folder named 'data' appearing.  
-    Within it, there should be 4 subfolders, pretrained_model, testing, validation, and training.
+    Within it, there should be 4 subfolders, pretrained_model, testing, validation, and training.  
+    Then within the aiml_symposium.ipynb notebook file, under the section titled "Constants" in the
+    early sections of the file, set the TOP_INPUT_DIR_NAME and OUTPUT_DIR_NAME variables to the following:
+    ```
+    TOP_INPUT_DIR_NAME = '/home/jovyan/data'
+    OUTPUT_DIR_NAME = '/home/jovyan/output'
+    ```
+    Note: you will need to create the output folder within your home directory. This is the same folder that
+    the 'data' folder sits under.
+
 
 * 4:00 - 7:00p Dataiku for Solving Prediction Problems
   + Location: Rawl Engineering Practice Facility, Room 200
