@@ -20,7 +20,7 @@ Make up a username, and log in with the passcode: aiml2019
   + Instructors: 
       - Keerti Banweer
       - Monique Shotande
-  + Get the [code here](http://35.202.19.212/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FMomoSho%2Faiml_tutorials_sklearn&urlpath=lab%2Ftree%2Faiml_tutorials_sklearn%2F&branch=2019_branch)
+  + Get the [code here](http://35.202.19.212/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FMomoSho%2Faiml_tutorials_sklearn&urlpath=lab%2Ftree%2Faiml_tutorials_sklearn%2F)
   + [Git Repo](https://github.com/MomoSho/aiml_tutorials_sklearn)
   
 * 12:30 - 3:30p Deep Learning and Convolutional Neural Networks
