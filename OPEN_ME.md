@@ -37,7 +37,7 @@ Make up a username, and log in with the passcode: aiml2019
     ```
     bash tutorials_setup/download_data.sh
     ```
-    This will take some time. The end result is a new folder named 'data' appearing.  
+    This will take some time. The end result will be 2 new folders named 'data' and 'output' appearing.  
     Within it, there should be 4 subfolders, pretrained_model, testing, validation, and training.  
     Then within the aiml_symposium.ipynb notebook file, under the section titled "Constants" in the
     early sections of the file, set the TOP_INPUT_DIR_NAME and OUTPUT_DIR_NAME variables to the following:
@@ -45,8 +45,6 @@ Make up a username, and log in with the passcode: aiml2019
     TOP_INPUT_DIR_NAME = '/home/jovyan/data'
     OUTPUT_DIR_NAME = '/home/jovyan/output'
     ```
-    Note: you will need to create the output folder within your home directory. This is the same folder that
-    the 'data' folder sits under.
 
 
 * 4:00 - 7:00p Dataiku for Solving Prediction Problems
