@@ -7,7 +7,7 @@ Make up a username, and log in with the passcode: aiml2019
 
 
 # [AI/ML Symposium Tutorials](https://github.com/MomoSho/aiml2019_tutorial_setup/blob/master/OPEN_ME.md)
-* 9:00 - 10:00a Introduction to Python for Data Analysis
+### 9:00 - 10:00a Introduction to Python for Data Analysis
   + Location: Oklahoma Memorial Union Ballroom
   + Instructors: 
       - Aditya Narasimhan
@@ -16,7 +16,7 @@ Make up a username, and log in with the passcode: aiml2019
   + [Git Repo](https://github.com/sudhigopal/AI-ML-Symposium.git)
   
   
-* 10:00a - 12:00p Introduction to Scikit-Learn and Pandas
+### 10:00a - 12:00p Introduction to Scikit-Learn and Pandas
   + Location: Oklahoma Memorial Union Ballroom
   + Instructors: 
       - Keerti Banweer
@@ -25,7 +25,7 @@ Make up a username, and log in with the passcode: aiml2019
   + [Git Repo](https://github.com/MomoSho/aiml_tutorials_sklearn)
   
   
-* 12:30 - 3:30p Deep Learning and Convolutional Neural Networks
+### 12:30 - 3:30p Deep Learning and Convolutional Neural Networks
   + Location:
       - Rawl Engineering Practice Facility, Room 200 (primary)
       - Oklahoma Memorial Union Heritage Room (overflow)
@@ -47,5 +47,5 @@ Make up a username, and log in with the passcode: aiml2019
     ```
 
 
-* 4:00 - 7:00p Dataiku for Solving Prediction Problems
+### 4:00 - 7:00p Dataiku for Solving Prediction Problems
   + Location: Rawl Engineering Practice Facility, Room 200
